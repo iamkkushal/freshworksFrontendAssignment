@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Search countries using REST API</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section>
+    <input type="text" id ="search" placeholder="Enter country name here">
+    <input type="submit" id="bt1" onclick="search()" >
+
+    <div id="flag-container" class="center">
+      <img src="" alt="Flag appears here">
+  </div>
+      <div id="content">
+        <p class="align"><span id="name" ></span></p>
+        <p>Capital: <span id="capital"></span></p>
+        <p>Region: <span id="region"></span></p>
+        <p>Timezones: <span id="timezones"></span></p>
+        <p>Borders: <span id="borders"></span></p>
+        <p>Currencies: <span id="currencies"></span></p>
+        <p>Languages: <span id="languages"></span></p>
+      </div>
+  </section>
+  <script src="main.js">
+  </script>
+</body>
+
+</html>
